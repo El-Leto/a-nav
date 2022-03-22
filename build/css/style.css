@@ -264,7 +264,8 @@
   margin-bottom: 33px;
   letter-spacing: -0.9px;
   padding-bottom: 31px;
-  border-bottom: 2px solid transparent;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
   border-image: linear-gradient(90deg, #00132E 0%, rgba(0, 19, 46, 0) 60%);
   border-image-slice: 1; }
 
