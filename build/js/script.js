@@ -73,7 +73,7 @@ for (let i = 0; i < technologys.length; i++) {
   technologys[i].addEventListener ('click', function(evt) {
     technologys.map((item) => technologys[i].id === item.id ? item.classList.add("technology__link--active") : item.classList.remove("technology__link--active"));
     descriptions.map((item) => technologys[i].id === item.id ? item.classList.remove("description_show") : item.classList.add("description_show"));
-    
+    window.scrollTo(0,0);
   });
 }
 
