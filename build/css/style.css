@@ -153,9 +153,9 @@
     height: 2px;
     background: linear-gradient(270deg, #00132E 0%, rgba(0, 19, 46, 0) 80%); }
   .about:first-child {
-    margin-top: 114px; }
+    margin-top: 50px; }
   .about:last-child {
-    margin-bottom: 242px; }
+    margin-bottom: 50px; }
 
 .about__description {
   display: flex;
