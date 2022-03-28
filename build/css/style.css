@@ -66,7 +66,7 @@
 .main__page--about-us {
   background-image: url("../../img/main-backgroung.png");
   background-repeat: no-repeat;
-  background-position: 70% -100%;
+  background-position: 70% 140%;
   background-size: auto;
   background-color: rgba(0, 0, 0, 0); }
 
@@ -168,22 +168,26 @@
   padding-left: 50px; }
 
 .about__title {
-  font-size: 36px;
-  line-height: 41px;
+  font-size: 21px;
+  line-height: 18px;
   font-weight: 700;
   margin: 0;
   margin-bottom: 24px; }
 
 .about__text {
   margin: 0;
-  margin-bottom: 114px; }
+  margin-bottom: 114px;
+  font-size: 16px;
+  line-height: 22px; }
   .about__text--big {
     margin-bottom: 50px; }
 
 .about__quote {
   font-style: italic;
   margin: 0;
-  margin-bottom: 97px; }
+  margin-bottom: 97px;
+  font-size: 16px;
+  line-height: 22px; }
   .about__quote--big {
     margin-bottom: 78px; }
 
@@ -191,13 +195,17 @@
   margin: 0;
   font-weight: 700;
   margin-bottom: 35px;
-  letter-spacing: -0.5px; }
+  letter-spacing: -0.5px;
+  font-size: 16px;
+  line-height: 22px; }
 
 .about__image {
   margin-bottom: 36px;
   box-shadow: 8px 8px 4px rgba(0, 0, 0, 0.15); }
 
 .about-us {
+  display: flex;
+  flex-direction: column;
   position: relative;
   margin-top: 90px;
   padding-bottom: 42px; }
@@ -207,7 +215,8 @@
   margin-bottom: 33px;
   letter-spacing: -0.9px;
   padding-bottom: 31px;
-  font-size: 28px; }
+  font-size: 21px;
+  line-height: 18px; }
   .about-us__title::after {
     content: "";
     position: absolute;
@@ -218,8 +227,8 @@
     background: linear-gradient(90deg, #00132E 0%, rgba(0, 19, 46, 0) 60%); }
 
 .about-us__text {
-  font-size: 18px;
-  line-height: 28px; }
+  font-size: 16px;
+  line-height: 22px; }
 
 .about-us__contacts {
   margin: 0 auto;
@@ -259,7 +268,6 @@
 
 .video {
   margin: 0 auto;
-  margin-top: 80px;
   padding-bottom: 84px; }
 
 .technology {
