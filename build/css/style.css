@@ -91,10 +91,13 @@
 
 .header__text {
   color: #ffffff;
-  max-width: 400px;
+  max-width: 450px;
   margin: 0;
   font-size: 14px;
   line-height: 25px; }
+
+.header__image {
+  width: 400px; }
 
 .header__list {
   display: flex;
