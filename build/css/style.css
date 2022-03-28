@@ -72,11 +72,11 @@
 
 .container {
   margin: 0 auto;
-  max-width: 1240px;
+  max-width: 1140px;
   min-width: 1024px;
   box-sizing: border-box;
-  padding-left: 35px;
-  padding-right: 35px; }
+  padding-left: 15px;
+  padding-right: 15px; }
 
 .header {
   background-image: url("../../img/header.jpg"), linear-gradient(90deg, #012a4a 0%, #012a4a 45%, #004667 55%, #004667 100%);
