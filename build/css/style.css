@@ -274,7 +274,7 @@
   position: relative;
   display: grid;
   grid-template-columns: auto 1fr;
-  margin-top: 90px;
+  margin-top: 50px;
   padding-bottom: 42px; }
   .technology::after {
     z-index: -1;
@@ -472,7 +472,7 @@
 
 .timeline {
   position: relative;
-  margin-top: 90px;
+  margin-top: 50px;
   padding-bottom: 42px; }
   .timeline::after {
     z-index: -1;
