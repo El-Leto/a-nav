@@ -176,7 +176,7 @@
 
 .about__text {
   margin: 0;
-  margin-bottom: 114px;
+  margin-bottom: 30px;
   font-size: 16px;
   line-height: 22px; }
   .about__text--big {
@@ -185,7 +185,7 @@
 .about__quote {
   font-style: italic;
   margin: 0;
-  margin-bottom: 97px;
+  margin-bottom: 30px;
   font-size: 16px;
   line-height: 22px; }
   .about__quote--big {
