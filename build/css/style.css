@@ -207,7 +207,7 @@
   display: flex;
   flex-direction: column;
   position: relative;
-  margin-top: 90px;
+  margin-top: 50px;
   padding-bottom: 42px; }
 
 .about-us__title {
@@ -228,11 +228,11 @@
 
 .about-us__text {
   font-size: 16px;
-  line-height: 22px; }
+  line-height: 22px;
+  margin: 10px 0; }
 
 .about-us__contacts {
   margin: 0 auto;
-  margin-top: 200px;
   width: 700px;
   display: flex;
   flex-wrap: wrap;
@@ -268,7 +268,8 @@
 
 .video {
   margin: 0 auto;
-  padding-bottom: 84px; }
+  padding-bottom: 30px;
+  padding-top: 20px; }
 
 .technology {
   position: relative;
@@ -384,7 +385,8 @@
     margin-bottom: 0; }
 
 .description__title-list {
-  line-height: 25px;
+  font-size: 16px;
+  line-height: 22px;
   letter-spacing: -0.5px; }
 
 .description__list {
@@ -392,6 +394,8 @@
   margin-bottom: 30px; }
 
 .description__item {
+  font-size: 16px;
+  line-height: 22px;
   line-height: 25px;
   letter-spacing: -0.5px; }
 
@@ -602,11 +606,15 @@
   flex-direction: column;
   margin-top: -9px; }
 
+.footer__image {
+  max-width: 350px; }
+
 .footer__link {
   color: #ffffff;
   text-decoration: none;
   font-style: italic;
-  padding-right: 22px; }
+  padding-right: 22px;
+  font-size: 14px; }
 
 .footer__contacts {
   display: flex;
@@ -615,7 +623,8 @@
 
 .footer__contact {
   color: #ffffff;
-  text-decoration: none; }
+  text-decoration: none;
+  font-size: 14px; }
   .footer__contact:hover {
     color: #c6d9e4; }
   .footer__contact:focus {
