@@ -72,10 +72,11 @@
 
 .container {
   margin: 0 auto;
-  max-width: 1440px;
+  max-width: 1240px;
+  min-width: 1024px;
   box-sizing: border-box;
-  padding-left: 135px;
-  padding-right: 135px; }
+  padding-left: 35px;
+  padding-right: 35px; }
 
 .header {
   background-image: url("../../img/header.jpg"), linear-gradient(90deg, #012a4a 0%, #012a4a 45%, #004667 55%, #004667 100%);
@@ -92,6 +93,7 @@
   color: #ffffff;
   max-width: 500px;
   margin: 0;
+  font-size: 18px;
   line-height: 25px; }
 
 .header__list {
@@ -104,16 +106,15 @@
 
 .header__item {
   text-transform: uppercase;
+  font-size: 16px;
   font-weight: 700;
   text-align: center; }
   .header__item--language {
-    padding-left: 10px;
-    padding-right: 10px;
-    min-width: 132px;
+    min-width: 102px;
     min-height: 28px;
     background-image: url("../../img/language.svg");
     background-repeat: no-repeat;
-    background-position: center 13%;
+    background-position: center 10%;
     background-size: auto;
     background-color: rgba(0, 0, 0, 0); }
 
@@ -289,7 +290,7 @@
 
 .technology__item {
   cursor: pointer;
-  font-size: 21px;
+  font-size: 18px;
   line-height: 22px;
   font-weight: 700;
   margin-bottom: 42px;
@@ -310,7 +311,7 @@
     position: absolute;
     right: -100px;
     top: 50%;
-    width: 25px;
+    width: 20px;
     height: 26px;
     transform: translateY(-50%);
     background-image: url("../../img/arrow.png");
@@ -327,7 +328,7 @@
   display: flex;
   flex-direction: column;
   position: relative;
-  font-size: 28px;
+  font-size: 22px;
   line-height: 32px;
   font-weight: 700;
   letter-spacing: -1.2px;
@@ -351,9 +352,10 @@
   width: 100%; }
 
 .description__text {
-  line-height: 25px;
+  font-size: 16px;
+  line-height: 22px;
   margin-top: 24px;
-  margin-bottom: 42px;
+  margin-bottom: 22px;
   letter-spacing: -0.5px; }
 
 .description__image {
@@ -395,7 +397,8 @@
   position: relative;
   margin-bottom: 33px;
   letter-spacing: -0.9px;
-  padding-bottom: 31px; }
+  padding-bottom: 31px;
+  font-size: 21px; }
   .contributors__title::after {
     content: "";
     position: absolute;
@@ -409,7 +412,7 @@
   list-style: none;
   padding: 0;
   margin: 0;
-  margin-bottom: 100px; }
+  margin-bottom: 60px; }
   .contributors__list:last-child {
     margin-bottom: 0; }
 
@@ -422,7 +425,7 @@
   padding-right: 350px;
   width: 100%;
   position: relative;
-  font-size: 21px;
+  font-size: 18px;
   line-height: 22px;
   font-weight: 700;
   letter-spacing: -0.9px;
@@ -440,8 +443,8 @@
     position: absolute;
     right: 0;
     top: 50%;
-    width: 25px;
-    height: 26px;
+    width: 20px;
+    height: 20px;
     transform: translateY(-50%);
     padding-right: 480px;
     background-image: url("../../img/arrow.png");
@@ -453,7 +456,7 @@
   margin-right: 200px; }
 
 .contributors__image {
-  width: 200px;
+  width: 150px;
   height: auto; }
 
 .timeline {
@@ -474,23 +477,26 @@
     background-size: auto;
     background-color: rgba(0, 0, 0, 0); }
 
+.timeline__list {
+  padding: 0; }
+
 .timeline__item {
   display: flex;
   justify-content: space-between;
-  margin-bottom: 50px; }
+  margin-bottom: 30px; }
 
 .timeline__description {
   padding-right: 150px; }
 
 .timeline__date {
-  font-size: 22px;
-  line-height: 32px;
+  font-size: 18px;
+  line-height: 22px;
   font-weight: 700;
   margin: 0; }
 
 .timeline__text {
-  font-size: 18px;
-  line-height: 22px;
+  font-size: 16px;
+  line-height: 20px;
   margin-top: 0;
   font-weight: 500; }
 
@@ -501,7 +507,7 @@
     color: #7494A6; }
 
 .timeline__image {
-  width: 400px;
+  width: 200px;
   height: auto; }
 
 .media {
@@ -536,7 +542,8 @@
   position: relative;
   width: 40%;
   color: #013356;
-  opacity: 0.5; }
+  opacity: 0.5;
+  font-size: 16px; }
   .media__name:hover {
     opacity: 1; }
   .media__name:focus {
@@ -557,16 +564,16 @@
 .media__right {
   display: flex;
   align-items: flex-start;
-  justify-content: flex-end; }
+  justify-content: flex-end;
+  padding-right: 200px; }
 
 .media__logo {
   margin-right: 50px;
-  width: 50%;
+  width: 60px;
   height: auto; }
 
 .media__language {
-  margin: 0;
-  padding-top: 30px; }
+  margin: 0; }
 
 .footer {
   background-image: url("../../img/footer.jpg"), linear-gradient(90deg, #012a4a 0%, #012a4a 45%, #004667 55%, #004667 100%);
