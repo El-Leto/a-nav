@@ -147,11 +147,11 @@
   top: 100%;
   left: 0;
   text-transform: none;
-  background-color: #025682;
+  background-color: #ffffff;
   box-shadow: 0px 0px 18px 4px rgba(0, 0, 0, 0.2);
   display: none;
   list-style: none;
-  list-style-image: url(../../img/arrow-pin.png);
+  list-style-image: url(../../img/arrow-pin-blue.png);
   padding: 15px 15px 15px 30px;
   width: 300px; }
   .header__sub-list--closed {
@@ -161,7 +161,7 @@
 
 .header__sub-item {
   text-align: left;
-  font-size: 16px;
+  font-size: 15px;
   margin-bottom: 10px;
   font-weight: 400; }
   .header__sub-item:last-child {
@@ -169,15 +169,15 @@
 
 .header__sub-link {
   text-decoration: none;
-  color: #ffffff; }
+  color: #013356; }
   .header__sub-link:hover {
-    color: #c6d9e4; }
+    color: #7494A6; }
   .header__sub-link:focus {
-    color: #c6d9e4; }
+    color: #7494A6; }
   .header__sub-link:active {
-    color: #c6d9e4; }
+    color: #7494A6; }
   .header__sub-link--active {
-    color: #c6d9e4; }
+    color: #7494A6; }
 
 .about {
   position: relative;
@@ -313,10 +313,10 @@
   height: 450px;
   margin-bottom: 20px;
   margin-top: 20px;
-  background-image: url("../../img/bg-video.jpg"), linear-gradient(90deg, #012a4a 0%, #012a4a 45%, #004667 55%, #004667 100%);
+  background-image: url("../../img/bg-video.jpg");
   background-repeat: no-repeat;
-  background-position: center;
-  background-size: auto 450px; }
+  background-position: center center;
+  background-size: cover; }
 
 .video__wrapper--first {
   background-color: #dbe6eb; }
