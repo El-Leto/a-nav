@@ -152,7 +152,7 @@
   display: none;
   list-style: none;
   list-style-image: url(../../img/arrow-pin-blue.png);
-  padding: 15px 15px 15px 30px;
+  padding: 15px 15px 20px 35px;
   width: 300px; }
   .header__sub-list--closed {
     display: none; }
@@ -163,7 +163,8 @@
   text-align: left;
   font-size: 15px;
   margin-bottom: 10px;
-  font-weight: 400; }
+  font-weight: 400;
+  padding-left: 6px; }
   .header__sub-item:last-child {
     margin-bottom: 0; }
 
