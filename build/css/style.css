@@ -676,6 +676,20 @@
 .media__language {
   margin: 0; }
 
+.documents {
+  margin-top: 46px;
+  padding-bottom: 100px;
+  background-image: url("../../img/main-backgroung.png");
+  background-repeat: no-repeat;
+  background-position: 70% 100%;
+  background-size: 332px 704px;
+  background-color: rgba(0, 0, 0, 0); }
+
+.documents__logo {
+  margin-right: 50px;
+  width: 40px;
+  height: auto; }
+
 .footer {
   background-image: url("../../img/footer.jpg"), linear-gradient(90deg, #012a4a 0%, #012a4a 45%, #004667 55%, #004667 100%);
   background-repeat: no-repeat;
