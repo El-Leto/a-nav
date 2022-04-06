@@ -183,15 +183,17 @@
   .header__sub-link--active {
     color: #7494A6; }
 
-.header__svg {
-  color: #ffffff; }
-  .header__svg:hover {
+.header__home {
+  color: #ffffff;
+  width: 20px;
+  height: auto; }
+  .header__home:hover {
     color: #7494A6; }
-  .header__svg:focus {
+  .header__home:focus {
     color: #7494A6; }
-  .header__svg:active {
+  .header__home:active {
     color: #7494A6; }
-  .header__svg--active {
+  .header__home--active {
     color: #7494A6; }
 
 .about {
@@ -735,7 +737,7 @@
 
 .documents__logo {
   margin-right: 50px;
-  width: 40px;
+  width: 33px;
   height: auto; }
 
 .documents__arrow {
