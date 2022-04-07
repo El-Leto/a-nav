@@ -112,11 +112,11 @@
   font-weight: 700;
   text-align: center; }
   .header__item--language {
-    min-width: 102px;
+    min-width: 90px;
     min-height: 28px;
-    background-image: url("../../img/language.svg");
+    background-image: url("../../img/language.png");
     background-repeat: no-repeat;
-    background-position: center 10%;
+    background-position: center 26%;
     background-size: auto;
     background-color: rgba(0, 0, 0, 0); }
   .header__item--drop {
