@@ -1,0 +1,21 @@
+.page {
+  font-family: $font;
+  font-size: 18px;
+  line-height: 21px;
+  font-weight: 400;
+  color: $main-text;
+  height: 100%;
+  overflow-x: hidden;
+}
+
+.page-modal {
+  overflow-y: hidden;
+  padding-right: 17px;
+}
+
+.page__body {
+  margin: 0;
+  display: grid;
+  grid-template-rows: min-content 1fr min-content;
+  min-height: 100%;
+}

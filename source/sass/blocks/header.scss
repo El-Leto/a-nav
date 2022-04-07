@@ -1,0 +1,167 @@
+.header {
+  background-image: url('../../img/header.jpg'),
+                    linear-gradient(90deg, #012a4a 0%, #012a4a 45%, #004667 55%, #004667 100%);
+  background-repeat: no-repeat;
+  background-position: top center;
+}
+
+.header__top {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 35px;
+  margin-bottom: 28px;
+}
+
+.header__text {
+  color: $white;
+  max-width: 450px;
+  margin: 0;
+  font-size: 14px;
+  line-height: 25px;
+}
+
+.header__image {
+  width: 400px;
+}
+
+.header__list {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  margin-bottom: 18px;
+}
+
+.header__item {
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: 700;
+  text-align: center;
+
+  &--language {
+    min-width: 102px;
+    min-height: 28px;
+    background-image: url('../../img/language.svg');
+    background-repeat: no-repeat;
+    background-position: center 10%;
+    background-size: auto;
+    background-color: $transparent;
+  }
+
+  &--drop {
+    position: relative;
+  }
+}
+
+.header__link {
+  display: inline-block;
+  text-decoration: none;
+  color: $white;
+  padding-top: 10px;
+  padding-bottom: 10px;
+
+  &:hover {
+    color: $light-blue;
+  }
+
+  &:focus {
+    color: $light-blue;
+  }
+
+  &:active {
+    color: $light-blue;
+  }
+
+  &--active {
+    color: $light-blue;
+  }
+
+  &--svg {
+    padding: 0;
+    padding-top: 8px;
+    cursor: pointer;
+  }
+}
+
+.active_language {
+  color: $light-blue;
+}
+
+.header__sub-list {
+  z-index: 100;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  text-transform: none;
+  background-color: $white;
+  box-shadow: 0px 0px 18px 4px rgba(0, 0, 0, 0.2);
+  display: none;
+  list-style: none;
+  list-style-image: url(../../img/arrow-pin-blue.png);
+  padding: 15px 15px 20px 35px;
+  width: 300px;
+
+  &--closed {
+    display: none;
+  }
+
+  &--opened {
+    display: block;
+  }
+}
+
+.header__sub-item {
+  text-align: left;
+  font-size: 15px;
+  margin-bottom: 10px;
+  font-weight: 400;
+  padding-left: 6px;
+
+  &:last-child {
+    margin-bottom: 0;
+  }
+}
+
+.header__sub-link {
+  text-decoration: none;
+  color: $main-text;
+
+  &:hover {
+    color: $blue;
+  }
+
+  &:focus {
+    color: $blue;
+  }
+
+  &:active {
+    color: $blue;
+  }
+
+  &--active {
+    color: $blue;
+  }
+}
+
+.header__home {
+  color: $white;
+  width: 20px;
+  height: auto;
+
+  &:hover {
+    color: $blue;
+  }
+
+  &:focus {
+    color: $blue;
+  }
+
+  &:active {
+    color: $blue;
+  }
+
+  &--active {
+    color: $blue;
+  }
+}

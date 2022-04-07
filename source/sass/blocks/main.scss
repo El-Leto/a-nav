@@ -1,0 +1,18 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-image: url('../../img/main-backgroung.png');
+  background-repeat: no-repeat;
+  background-position: 100% 105%;
+  background-size: 332px 704px;
+  background-color: $transparent;
+}
+
+.main__page--about-us {
+  background-image: url('../../img/main-backgroung.png');
+  background-repeat: no-repeat;
+  background-position: 70% 140%;
+  background-size: 332px 704px;
+  background-color: $transparent;
+}
