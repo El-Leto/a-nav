@@ -17,6 +17,11 @@
     margin-top: 20px;
     margin-bottom: 20px;
   }
+
+  @media (max-width: $mobile-width) {
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
 }
 
 .footer__logo {
@@ -30,6 +35,10 @@
 
   @media (max-width: $tablet-width) {
     max-width: 200px;
+  }
+
+  @media (max-width: $mobile-width) {
+    max-width: 150px;
   }
 }
 
