@@ -6,6 +6,11 @@
   background-position: 70% 100%;
   background-size: 332px 704px;
   background-color: $transparent;
+
+  @media (max-width: $tablet-width) {
+    margin-top: 20px;
+    padding-bottom: 40px;
+  }
 }
 
 .contributors__title {
@@ -24,6 +29,20 @@
     width: 100%;
     height: 2px;
     background: linear-gradient(90deg, #00132E 0%, rgba(0, 19, 46, 0) 60%);
+
+    @media (max-width: $desktop-width) {
+      width: 90%;
+    }
+
+    @media (max-width: $tablet-width) {
+      left: 20px;
+    }
+  }
+
+  @media (max-width: $tablet-width) {
+    padding-left: 20px;
+    margin-bottom: 20px;
+    padding-bottom: 15px;
   }
 }
 
@@ -39,6 +58,11 @@
 
   &:last-child {
     margin-bottom: 0;
+  }
+
+  @media (max-width: $tablet-width) {
+    padding-left: 20px;
+    padding-right: 20px;
   }
 }
 
@@ -89,6 +113,10 @@
 .contributors__logo {
   margin-right: 77px;
   order: -1;
+
+  @media (max-width: $tablet-width) {
+    margin-right: 40px;
+  }
 }
 
 .contributors__image {

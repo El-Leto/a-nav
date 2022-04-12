@@ -3,6 +3,10 @@
   margin-top: 50px;
   padding-bottom: 42px;
 
+  @media (max-width: $tablet-width) {
+    margin-top: 20px;
+  }
+
   &::after {
     z-index: -1;
     content: "";
@@ -22,12 +26,26 @@
 .timeline__list {
   padding-left: 35px;
   padding-right: 35px;
+
+  @media (max-width: $desktop-width) {
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+
+  @media (max-width: $tablet-width) {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
 }
 
 .timeline__item {
   display: flex;
   justify-content: space-between;
   margin-bottom: 30px;
+
+  @media (max-width: $tablet-width) {
+    flex-direction: column;
+  }
 }
 
 .timeline__description {
@@ -51,6 +69,12 @@
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center;
+  }
+
+  @media (max-width: $tablet-width) {
+    padding-right: 20px;
+    padding-left: 40px;
+    padding-bottom: 10px;
   }
 }
 
@@ -80,4 +104,10 @@
 .timeline__image {
   width: 200px;
   height: auto;
+
+  @media (max-width: $tablet-width) {
+    width: 70%;
+    max-width: 300px;
+    margin: 0 auto;
+  }
 }

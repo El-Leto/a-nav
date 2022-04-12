@@ -11,6 +11,15 @@
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
+
+  @media (max-width: $desktop-width) {
+    height: 350px;
+  }
+
+  @media (max-width: $tablet-width) {
+    width: 100%;
+    height: auto;
+  }
 }
 
 .video__wrapper--first {
@@ -18,9 +27,16 @@
 }
 
 .video {
-  //margin: 0 auto;
   height: 450px;
-  // padding-bottom: 10px;
-  // padding-top: 7px;
   box-sizing: border-box;
+
+  @media (max-width: $desktop-width) {
+    width: 640px;
+    height: 350px;
+  }
+
+  @media (max-width: $tablet-width) {
+    width: 90%;
+    height: auto;
+  }
 }

@@ -7,6 +7,18 @@
   padding-left: 50px;
   padding-right: 50px;
 
+  @media (max-width: $desktop-width) {
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+
+  @media (max-width: $tablet-width) {
+    grid-template-columns: 1fr;
+    margin-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
   &::after {
     z-index: -1;
     content: "";
@@ -20,6 +32,12 @@
     background-position: center;
     background-size: 332px 704px;
     background-color: $transparent;
+  }
+}
+
+.technology__nav {
+  @media (max-width: $tablet-width) {
+    display: none;
   }
 }
 
@@ -125,6 +143,14 @@
   &--second {
     width: 520px;
     height: auto;
+
+    @media (max-width: $desktop-width) {
+      width: 400px;
+    }
+
+    @media (max-width: $tablet-width) {
+      width: 100%;
+    }
   }
 
   &--third {
