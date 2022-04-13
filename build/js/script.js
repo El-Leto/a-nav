@@ -9,6 +9,11 @@ const toggleDrop = () => {
   listDrop.classList.toggle('header__sub-list--opened');
 }
 
+const removeDrop = () => {
+  linkDrop.classList.remove('header__link--drop--opened');
+  listDrop.classList.remove('header__sub-list--opened');
+}
+
 const toggle = () => {
   navButton.classList.toggle('header__button--closed');
   navList.classList.toggle('header__nav--opened');
@@ -16,15 +21,19 @@ const toggle = () => {
     evt.preventDefault();
     toggleDrop();
   });
+  removeDrop();
 }
 
 const close = () => {
   navButton.classList.add('header__button--closed');
+  if (navList.classList.contains('header__nav--opened')) {
+    itemDrop.addEventListener('click', function(evt) {
+      evt.preventDefault();
+      toggleDrop();
+    });
+  }
   navList.classList.remove('header__nav--opened');
-  itemDrop.addEventListener('click', function(evt) {
-    evt.preventDefault();
-    toggleDrop();
-  });
+  removeDrop();
 }
 
 navList.addEventListener('click', function(evt) {
